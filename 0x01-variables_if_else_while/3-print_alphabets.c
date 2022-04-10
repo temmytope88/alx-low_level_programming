@@ -6,13 +6,13 @@
 int main(void)
 {
 	char g;
-	char f
+	char f;
 
 	for (g = 'A'; g <= 'Z'; g++)
 	{
 		putchar(g);
 	}
-	 for (f = 'a'; f<= 'z'; f++)
+	for (f = 'a'; f<= 'z'; f++)
         {
                 putchar(f);
         }
