@@ -4,7 +4,7 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there
-the code is for checking if a number is zero, negative or positive
+* the code is for checking if a number is zero, negative or positive
 */
 
 int main(void)
