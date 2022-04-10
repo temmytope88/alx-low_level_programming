@@ -5,7 +5,10 @@
  */
 int main(void)
 {
-	char g = "abcdefghijklmnopqrstuvwxyz\n";
-	putchar(g);
-	return(0);
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
+	putchar('\n');
+	return (0);;
 {
