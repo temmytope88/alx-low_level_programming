@@ -10,11 +10,15 @@ int main(void)
 	for (a = 48; a <= 57; a++)
 	{
 		if (a < 57)
+		{
 			putchar(a);
 			putchar(',');
 			putchar(' ');
+		}
 		else
+		{
 			putchar(a);
+		}
 	}
 	return (0);	
 }
