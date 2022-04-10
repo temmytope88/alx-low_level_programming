@@ -6,11 +6,16 @@
 int main(void)
 {
 	char g;
+	char f;
 
 	for (g = 'A'; g <= 'Z'; g++)
 	{
 		putchar(g);
 	}
-	putchar("/n");
+	for (f = 'a'; f<= 'z'; f++)
+	{
+		putchar(f);
+	}
+	putchar('\n');
 	return(0);
 }
