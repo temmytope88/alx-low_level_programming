@@ -3,9 +3,12 @@
 #include <time.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there
-* the code is for checking if a number is zero, negative or positive
-*/
+/* betty style doc for function main goes there*/
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
