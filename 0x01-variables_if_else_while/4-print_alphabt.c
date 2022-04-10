@@ -6,6 +6,7 @@
 int main(void)
 {
 	char g;
+
 	for (g = 'a'; g <= 'z'; g++)
 	{
 		if (g == 'e' || g == 'q')
@@ -13,6 +14,7 @@ int main(void)
 			continue;
 		}
 		putchar(g);
+		putchar('\n');
 	}
 	return(0);
 }
