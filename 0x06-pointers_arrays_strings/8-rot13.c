@@ -14,7 +14,7 @@ char *rot13(char *targ)
 	{
 		neg = 1;
 		for (y = 0; targ[x] != alpha[y] && y < 52; y++)
-			neg = (neg * -1);
+			neg = (neg * -1);arr
 		if (targ[x] == alpha[y])
 			targ[x] = (targ[x] + (13 * neg));
 	}
