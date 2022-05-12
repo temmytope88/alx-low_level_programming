@@ -1,1 +1,3 @@
-#define ABS(x) (abs (x)) 
+#ifndef
+#define ABS(x) (abs (x))
+#endif
