@@ -4,7 +4,7 @@
 
 /**
  * _atoi - converts a string to an integer
- * @argc - number of augments 
+ * @argc - number of augments
  * @argv - value of arguments
  * @main prints multiplication of two aurguments
  * Return: the int converted from the string
