@@ -6,6 +6,9 @@
  * _atoi - converts a string to an integer
  * @argc - number of augments
  * @argv - value of arguments
+ * @num1- first augument
+ * @num2 - second argument
+ * @result - multiplication of num1 and num2
  * @main prints multiplication of two aurguments
  * Return: the int converted from the string
  */
