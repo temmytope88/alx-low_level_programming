@@ -1,7 +1,14 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "main.h"
-int main(int argc, char *argv[]_attribute_((unused)))
+/** 
+ * main - print the number of arguments passed to the program 
+ * @argc: number of arguments 
+ * @argv: array of arguments 
+ *
+ * Return: Always 0 (Success) 
+ */
+int main(int argc, char *argv[] __attribute__((unused)))
 {
 	printf("%d\n", argc);
 	return (0);
