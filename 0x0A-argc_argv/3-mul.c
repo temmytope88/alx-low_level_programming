@@ -4,8 +4,9 @@
 
 /**
  * _atoi - converts a string to an integer
- * @s: string to be converted
- *
+ * @argc - number of augments 
+ * @argv - value of arguments
+ * @main prints multiplication of two aurguments
  * Return: the int converted from the string
  */
 int main(int argc, char *argv[])
